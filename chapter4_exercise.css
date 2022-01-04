@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: red;
+}
+
+.main-visual {
+  width: 100%;
+  height: 500px;
+  background-color: orange;
+}
+
+.main {
+  width: 100%;
+  height: 1400px;
+  /*マージン0オートを入れ忘れた12/22*/
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.main-1 {
+  width: 230px;
+  height: 1400px;
+  background-color: lightgreen;
+}
+
+.main-2 {
+  width: 500px;
+  height: 1400px;
+  background-color: green;
+}
+
+.main-3 {
+  width: 230px;
+  height: 1400px;
+  background-color: lightgreen;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+}
