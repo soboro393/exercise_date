@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+}
+
+.heading {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav-list {
+  list-style: none;
+  text-align: center;
+  padding: 15px 0;
+  border-bottom: solid 1px black;
+  border-top: solid 1px black;
+}
+
+.nav-list-item {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.main {
+  width: 800px;
+  height: 600px;
+  margin: 50px auto;
+  background-color: aquamarine;
+}
+
+footer {
+  height: 120px;
+  line-height: 120px;
+  background-color: gray;
+  text-align: center;
+}
+
+.footer-text {
+  color: white;
+}
